@@ -1,0 +1,59 @@
+.gradient {
+	transform: skewY(-12deg);
+	transform-origin: -60px 100%;
+	z-index: -2;
+	position: absolute;
+	bottom: 0;
+	top: -50vh;
+	left: 0;
+	height: 90vh;
+	width: 100vw;
+	background: linear-gradient(-12deg, #a960ee, #ff333d, #90e0ff, #ffcb57);
+	background-size: 200% 200%;
+
+	-webkit-animation: Animation 15s ease infinite;
+	-moz-animation: Animation 15s ease infinite;
+	animation: Animation 15s ease infinite;
+}
+
+@media screen and (min-width: 768px) {
+	.gradient {
+		height: 120vh;
+      transform: skewY(-12deg);
+	   transform-origin: 60px 100%;
+	}
+}
+
+@-webkit-keyframes Animation {
+	0% {
+		background-position: 10% 0%;
+	}
+	50% {
+		background-position: 91% 100%;
+	}
+	100% {
+		background-position: 10% 0%;
+	}
+}
+@-moz-keyframes Animation {
+	0% {
+		background-position: 10% 0%;
+	}
+	50% {
+		background-position: 91% 100%;
+	}
+	100% {
+		background-position: 10% 0%;
+	}
+}
+@keyframes Animation {
+	0% {
+		background-position: 10% 0%;
+	}
+	50% {
+		background-position: 91% 100%;
+	}
+	100% {
+		background-position: 10% 0%;
+	}
+}

@@ -1,3 +1,18 @@
+:root {
+	--angleNormal: -6deg;
+	--angleStrong: -12deg;
+	--angleNormalSin: 0.106;
+	--angleStrongSin: 0.21;
+	--gradientColorZero: #a960ee;
+	--gradientColorOne: #ff333d;
+	--gradientColorTwo: #90e0ff;
+	--gradientColorThree: #ffcb57;
+	--gradientColorZeroTransparent: rgba(169, 96, 238, 0);
+	--gradientColorOneTransparent: rgba(255, 51, 61, 0);
+	--gradientColorTwoTransparent: rgba(144, 224, 255, 0);
+	--gradientColorThreeTransparent: rgba(255, 203, 87, 0);
+}
+
 html {
 	scroll-behavior: smooth;
 	overscroll-behavior: none;

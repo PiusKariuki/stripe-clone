@@ -15,48 +15,36 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['"Dosis"', "sans-serif"],
+				sans: ['"Open Sans"', "sans-serif"],
 			},
 			colors: {
-				gray: {
-					10: "#6B7280",
-					20: "#33546D",
-					30: "#7393B3",
-				},
-
-				green: {
-					10: "#F4FFDC",
-					20: "#E9FF99",
-					30: "#B1FF05",
-					40: "#00ED64",
-					50: "#00AA57",
-					60: "#00684A",
-					70: "#014E3D",
-					80: "#023430",
+				black: {
+					10: "#3A3A3A",
+					20: "#425466",
+					30: "#0A2540",
+					40: "#364657",
 				},
 				blue: {
-					20: "#33546D",
-					30: "#4d4dff",
-					40: "#00BCD7",
-					80: "#001E2B",
+					10: "#635BFF",
+					20: "#00D4FF",
 				},
-				black: {
-					40: "#4B5563",
-					70: "#5d6c74",
-					80: "#001E2B",
+				gray: {
+					10: "#ADBDCC",
 				},
-				red: {
-					20: "#F74356",
+				gradient: {
+					0: "#A960EE",
+					1: "#FF333D",
+					2: "#90E0FF",
+					3: "FFCB57",
 				},
-				brown: {
-					20: "#F5F5F5",
+				gradientTransparent: {
+					0: "rgba(169,96,238,0)",
+					1: "rgba(255,51,61,0)",
+					2: "rgba(144,224,255,0)",
+					3: "rgba(255,203,87,0)",
 				},
 			},
 			backgroundImage: {
-				mannequinn: "url('/img/mannequin.svg')",
-				expectrum: "url('/img/expectrum.png')",
-				cart: "url('/img/cart.png')",
-				hero: "url('/img/hero.png')",
 				picture: "url('/img/picture.png')",
 			},
 		},
