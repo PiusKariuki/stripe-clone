@@ -21,7 +21,7 @@ const Sidebar: React.FC<Props> = ({ setOpen }) => {
 					/>
 				</div>
 				<div 
-            className="flex flex-row flex-wrap w-full gap-y-4 gap-x-10 pl-3">
+            className="flex flex-wrap w-full gap-y-4 pl-3 justify-between">
 					{chips.map((chip: chipType, key: number) => (
 						<ProductChips
 							name={chip.name}
