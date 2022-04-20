@@ -5,14 +5,15 @@ interface Props {
 	icon: any;
 	name: string;
 	description: string;
+   color: string;
 }
 
-const ProductChips: React.FC<Props> = ({ icon, name, description }) => {
+const ProductChips: React.FC<Props> = ({ icon, name, description,color }) => {
 	return (
 		<div className="flex flex-col w-[48%]">
 			<div className="flex relative">
 				<FontAwesomeIcon
-               color="purple"
+               color={color}
 					icon={icon}
 					className="font-semibold absolute left-0 top-[50%]
                 translate-x-[-50%] translate-y-[-50%] text-base"

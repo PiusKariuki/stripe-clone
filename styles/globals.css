@@ -48,4 +48,8 @@ body::-webkit-scrollbar {
 		@apply flex flex-col relative bg-white w-[95vw] max-w-md mx-auto
       rounded-md;
 	}
+   .blue-btn{
+      @apply bg-blue-10 hover:bg-black-30 rounded-[16.5px] text-white px-6 py-[5px] transition-all
+      duration-150 ease-in-out
+   }
 }
