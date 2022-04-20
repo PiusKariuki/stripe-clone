@@ -18,7 +18,7 @@ const ProductChips: React.FC<Props> = ({ icon, name, description,color }) => {
 					className="font-semibold absolute left-0 top-[50%]
                 translate-x-[-50%] translate-y-[-50%] text-base"
 				/>
-				<p className="text-[13px] font-[600] text-black-30 ml-4 self-center">
+				<p className="text-[14px] font-[600] text-black-30 ml-4 self-center tracking-tighter">
 					{name}
 				</p>
 			</div>
