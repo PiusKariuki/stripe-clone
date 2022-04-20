@@ -14,9 +14,6 @@ module.exports = {
 			"3xl": "2560px",
 		},
 		extend: {
-			fontFamily: {
-				sans: ['"Open Sans"', "sans-serif"],
-			},
 			colors: {
 				black: {
 					10: "#3A3A3A",

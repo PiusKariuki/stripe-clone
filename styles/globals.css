@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 :root {
 	--angleNormal: -6deg;
 	--angleStrong: -12deg;
@@ -25,6 +28,7 @@ body {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	box-sizing: border-box;
+	font-family: "Poppins",Helvetica, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -34,3 +38,14 @@ body::-webkit-scrollbar {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.dialog-wrapper {
+		@apply fixed inset-0 z-50 overflow-auto bg-transparent flex flex-col w-screen;
+	}
+
+	.dialog {
+		@apply flex flex-col relative bg-white w-[90vw] max-w-md mx-auto
+      rounded-md;
+	}
+}
