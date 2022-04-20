@@ -29,7 +29,7 @@ const Sidebar: React.FC<Props> = ({ setOpen }) => {
 							name={chip.name}
 							icon={chip.icon}
 							description={chip.description}
-							color="purple"
+							color="#073980"
 							key={key}
 						/>
 					))}
@@ -67,7 +67,7 @@ const Sidebar: React.FC<Props> = ({ setOpen }) => {
 							/>
 						))}
 				</div>
-            <button className="blue-btn self-center mt-12">Sign in</button>
+				<button className="blue-btn self-center mt-12">Sign in</button>
 			</div>
 		</div>
 	);
