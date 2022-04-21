@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
 	--angleNormal: -6deg;
@@ -28,7 +27,7 @@ body {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	box-sizing: border-box;
-	font-family: "Poppins",Helvetica, sans-serif;
+	font-family: "Poppins", Helvetica, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -48,8 +47,12 @@ body::-webkit-scrollbar {
 		@apply flex flex-col relative bg-white w-[91vw] md:w-[95vw] mx-auto
       rounded-md overflow-x-clip;
 	}
-   .blue-btn{
-      @apply bg-blue-10 hover:bg-black-30 rounded-[16.5px] text-white px-6 py-[5px] transition-all
-      duration-150 ease-in-out
-   }
+	.blue-btn {
+		@apply bg-blue-10 hover:bg-black-30 rounded-[16.5px] text-white px-6 py-[5px] transition-all
+      duration-150 ease-in-out;
+	}
+	.sign-btn {
+		@apply h-8 px-4  self-center items-center  rounded-[2rem] text-white bg-[hsla(0,0%,100%,0.2)]
+       hover:bg-[hsla(0,0%,100%,0.4)] border-[1px] border-[hsla(0,0%,100%,0.2)];
+	}
 }
