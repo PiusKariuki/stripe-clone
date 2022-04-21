@@ -12,7 +12,7 @@ interface Props {
 const Sidebar: React.FC<Props> = ({ setOpen }) => {
 	return (
 		<div className=" dialog-wrapper">
-			<div className="dialog px-8 pt-6 pb-6 mt-4">
+			<div className="dialog  little:px-3 xs:px-8 px-8 pt-6 pb-6 mt-4">
 				<div className="flex justify-between items-center text-[#8898AA] mb-2 ">
 					<p className=" text-sm uppercase font-semibold text-gray-20">
 						products
@@ -22,9 +22,9 @@ const Sidebar: React.FC<Props> = ({ setOpen }) => {
 						className="text-2xl"
 						onClick={() => setOpen(false)}
 					/>
-				</div>j
+				</div>
 				{/* .....................product chips div................. */}
-				<div className="flex flex-wrap w-screen md:w-full ">
+				<div className="flex flex-wrap  w-full ">
 					{products.map((chip: chipType, key: number) => (
 						<Chips
 							name={chip.name}
@@ -40,7 +40,7 @@ const Sidebar: React.FC<Props> = ({ setOpen }) => {
 				</p>
 
 				{/* ........................use case chips div............. */}
-				<div className="flex flex-wrap w-screen md:w-full justify-between  pt-4">
+				<div className="flex flex-wrap  w-full gap-y-3 pt-4">
 					{uses
 						.filter((chip: chipType, index: number) => index < 6)
 						.map((chip: chipType, index: number) => (
@@ -53,7 +53,7 @@ const Sidebar: React.FC<Props> = ({ setOpen }) => {
 						))}
 				</div>
 				{/* ........................2ndd row use case chips div............. */}
-				<div className="flex flex-wrap w-screen md:w-full   pt-4 mt-8">
+				<div className="flex flex-wrap  w-full gap-y-3 mt-8">
 					{uses
 						.filter((chip: chipType, index: number) => index > 5)
 						.map((chip: chipType, index: number) => (

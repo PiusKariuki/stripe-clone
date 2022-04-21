@@ -12,8 +12,8 @@ const ProductChips: React.FC<Props> = ({ icon, name, description }) => {
 		<div className="flex flex-col w-1/2">
 			<div className="flex relative w-full gap-x-2">
 				<div className="flex w-3 items-center">{icon}</div>
-				<p className="flex flex-wrap text-[13px] font-[600] text-black-30 self-center 
-             text-left">
+				<p className="text-[13px] font-[600] text-black-30 self-center 
+            ">
 					{name}
 				</p>
 			</div>
