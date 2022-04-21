@@ -1,24 +1,19 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 interface Props {
 	icon: any;
 	name: string;
 	description: string;
-   color: string;
+
 }
 
-const ProductChips: React.FC<Props> = ({ icon, name, description,color }) => {
+const ProductChips: React.FC<Props> = ({ icon, name, description }) => {
 	return (
-		<div className="flex flex-col w-[48%]">
-			<div className="flex relative">
-				<FontAwesomeIcon
-               color={color}
-					icon={icon}
-					className="font-semibold absolute left-0 top-[50%]
-                translate-x-[-50%] translate-y-[-50%] text-base"
-				/>
-				<p className="text-[14px] font-[600] text-black-30 ml-4 self-center tracking-tighter">
+		<div className="flex flex-col w-1/2">
+			<div className="flex relative w-full gap-x-2">
+				<div className="flex w-3 items-center">{icon}</div>
+				<p className="flex flex-wrap text-[13px] font-[600] text-black-30 self-center 
+             text-left">
 					{name}
 				</p>
 			</div>
