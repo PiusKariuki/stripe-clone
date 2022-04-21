@@ -40,11 +40,11 @@ body::-webkit-scrollbar {
 
 @layer components {
 	.dialog-wrapper {
-		@apply fixed inset-0 z-50 overflow-auto bg-transparent flex flex-col w-screen;
+		@apply fixed inset-0 z-50 overflow-auto bg-transparent flex flex-col;
 	}
 
 	.dialog {
-		@apply flex flex-col relative bg-white w-[91vw] md:w-[95vw] mx-auto
+		@apply flex flex-col relative bg-white  mx-auto
       rounded-md overflow-x-clip;
 	}
 	.blue-btn {
