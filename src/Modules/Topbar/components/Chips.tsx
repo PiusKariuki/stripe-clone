@@ -9,9 +9,9 @@ interface Props {
 
 const ProductChips: React.FC<Props> = ({ icon, name, description }) => {
 	return (
-		<div className="flex flex-col w-1/2">
+		<div className="flex flex-col w-1/2 md:w-1/4">
 			<div className="flex relative w-full gap-x-2">
-				<div className="flex w-3 items-center">{icon}</div>
+				<div className="flex w-4 items-center">{icon}</div>
 				<p className="text-[13px] font-[600] text-black-30 self-center 
             ">
 					{name}

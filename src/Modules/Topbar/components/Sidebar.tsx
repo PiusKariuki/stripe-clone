@@ -12,7 +12,7 @@ interface Props {
 const Sidebar: React.FC<Props> = ({ setOpen }) => {
 	return (
 		<div className=" dialog-wrapper">
-			<div className="dialog  little:px-3 xs:px-8 px-8 pt-6 pb-6 mt-4">
+			<div className="dialog  little:px-3 xs:px-[25px] px-[25px] pt-6 pb-6 mt-4">
 				<div className="flex justify-between items-center text-[#8898AA] mb-2 ">
 					<p className=" text-sm uppercase font-semibold text-gray-20">
 						products
