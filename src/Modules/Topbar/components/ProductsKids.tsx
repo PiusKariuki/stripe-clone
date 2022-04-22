@@ -4,10 +4,10 @@ import Chips from "./Chips";
 
 const ProductsKids = () => {
 	return (
-		<div className="grid grid-cols-3 gap-6">
+		<div className="w-full grid grid-cols-3 gap-x-10 min-w-[900px] py-8 px-8">
 			{/* col 1 */}
-			<div className="flex flex-col">
-				<p className="text-xl text-gray-20 uppercase">Payments</p>
+			<div className="flex flex-col space-y-8">
+				<p className="text-[13px] font-medium text-gray-20 uppercase">Payments</p>
 				{products
 					.filter((chip: chipType, index: number) => index < 8)
 					.map((chip: chipType, index: number) => (
@@ -20,8 +20,8 @@ const ProductsKids = () => {
 					))}
 			</div>
 			{/* col2 */}
-			<div className="flex flex-col">
-				<p className="text-xl text-gray-20 uppercase">Financial Services</p>
+			<div className="flex flex-col space-y-8">
+				<p className="text-[13px] font-medium text-gray-20 uppercase">Financial Services</p>
 				{products
 					.filter((chip: chipType, index: number) => index > 14)
 					.map((chip: chipType, index: number) => (
@@ -34,8 +34,8 @@ const ProductsKids = () => {
 					))}
 			</div>
 			{/* col3 */}
-			<div className="flex flex-col">
-				<p className="text-xl text-gray-20 uppercase">Business Operations</p>
+			<div className="flex flex-col space-y-8">
+				<p className="text-[13px] font-medium text-gray-20 uppercase">Business Operations</p>
 				{products
 					.filter((chip: chipType, index: number) => index > 11)
 					.map((chip: chipType, index: number) => (

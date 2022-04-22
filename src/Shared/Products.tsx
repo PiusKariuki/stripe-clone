@@ -103,7 +103,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Subscription management",
 	},
 	{
 		name: "Capital",
@@ -158,7 +158,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Business financing",
 	},
 	{
 		name: "Checkout",
@@ -207,7 +207,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Pre-built payments page",
 	},
 	{
 		name: "Climate",
@@ -267,7 +267,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "carbon removal",
 	},
 	{
 		name: "Connect",
@@ -366,7 +366,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Payments for platforms",
 	},
 	{
 		name: "Elements",
@@ -420,7 +420,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Customizable payments UIs",
 	},
 	{
 		name: "Identity",
@@ -465,7 +465,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Online identity verification",
 	},
 	{
 		name: "Invoicing",
@@ -510,7 +510,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Online invoices",
 	},
 	{
 		name: "Issuing",
@@ -558,7 +558,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Card creation",
 	},
 	{
 		name: "Payments",
@@ -604,7 +604,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Online payments",
 	},
 	{
 		name: "Payment Links",
@@ -666,7 +666,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "No-code payments",
 	},
 	{
 		name: "Radar",
@@ -712,7 +712,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Fraud & risk management",
 	},
 	{
 		name: "Revenue Recognition",
@@ -758,7 +758,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Accounting automation",
 	},
 	{
 		name: "Sigma",
@@ -804,7 +804,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Custom reports",
 	},
 	{
 		name: "Tax",
@@ -853,7 +853,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Sales tax & VAT automation",
 	},
 	{
 		name: "Terminal",
@@ -902,7 +902,7 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "In-person payments",
 	},
 	{
 		name: "Treasury",
@@ -949,6 +949,6 @@ export const products = [
 				</defs>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Banking-as-a-service",
 	},
 ];

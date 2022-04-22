@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
 	}
 
 	.dialog {
-		@apply flex flex-col relative bg-white  mx-auto
+		@apply flex flex-col relative bg-white  mx-auto 
       rounded-md overflow-x-clip;
 	}
 	.blue-btn {

@@ -15,7 +15,7 @@ export const uses = [
 					d="M5.43 6L5.1 7.22a3 3 0 0 0 5.8 1.56L11.64 6H15a1 1 0 0 1 0 2l-.9 7.11a1 1 0 0 1-1 .89H2.9a1 1 0 0 1-1-.89L1 8a1 1 0 1 1 0-2h4.43zM9.61.02l.97.26a.5.5 0 0 1 .35.6L9.57 6l-.6 2.26a1 1 0 0 1-1.94-.52l2-7.45a.5.5 0 0 1 .58-.27z"></path>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Unify online and in-person payments",
 	},
 	{
 		name: "SaaS",
@@ -32,7 +32,7 @@ export const uses = [
 					fillRule="evenodd"></path>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Manage recurring billing and subscriptions",
 	},
 	{
 		name: "Marketplaces",
@@ -49,7 +49,7 @@ export const uses = [
 					fillRule="evenodd"></path>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Pay out globally and facilitate multiparty payments",
 	},
 	{
 		name: "Platforms",
@@ -66,7 +66,7 @@ export const uses = [
 					fillRule="nonzero"></path>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Let customers accept payments within your platform",
 	},
 	{
 		name: "Creator Economy",
@@ -102,7 +102,7 @@ export const uses = [
 					fill="#88add2"></path>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Facilitate on-platform payments and pay creators globally",
 	},
 	{
 		name: "Pricing",
@@ -119,7 +119,7 @@ export const uses = [
 					fillRule="nonzero"></path>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Enable seamless payments for your crypto business",
 	},
 	{
 		name: "Enterprise",
