@@ -28,6 +28,7 @@ module.exports = {
 				gray: {
 					10: "#ADBDCC",
 					20: "#8898AA",
+               30: "#F6F9FC"
 				},
 				gradient: {
 					0: "#A960EE",

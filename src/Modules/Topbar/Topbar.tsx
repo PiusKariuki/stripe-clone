@@ -11,15 +11,17 @@ const Topbar = () => {
 	return (
 		<div
 			className="flex flex-nowrap w-full justify-between lg:justify-between  relative
-         pt-8 px-8 pb-3 lg:pt-[10.3px] xl:px-[150px] ">
+         pt-8 px-8 pb-3 lg:pt-[10.3px] xl:px-[150px]">
 			<div className={styles.gradient} />
 			<FontAwesomeIcon icon={faStripe} color="white" className="text-5xl" />
 			<button onClick={() => setOpen(true)} className="md:hidden sign-btn">
 				<FontAwesomeIcon icon={faBars} className="text-base" />
 			</button>
-			{open ? <Sidebar setOpen={setOpen} /> : null}
-			<Nav />
-			<button className="hidden lg:flex sign-btn">Sign in {">"}</button>
+			<div className="pt-3">
+				{open ? <Sidebar setOpen={setOpen} /> : null}
+				<Nav />
+			</div>
+			<button className="hidden lg:flex sign-btn mt-3">Sign in {">"}</button>
 		</div>
 	);
 };
