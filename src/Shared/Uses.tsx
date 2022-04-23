@@ -83,7 +83,7 @@ export const uses = [
 					fill="#88add2"></path>
 			</svg>
 		),
-		description: "Startup Incoporation",
+		description: "Facilitate on-platform payments and pay creators globally",
 	},
 	{
 		name: "Crypto",
@@ -102,7 +102,7 @@ export const uses = [
 					fill="#88add2"></path>
 			</svg>
 		),
-		description: "Facilitate on-platform payments and pay creators globally",
+		description: "Enable seamless payments for your crypto business",
 	},
 	{
 		name: "Pricing",
