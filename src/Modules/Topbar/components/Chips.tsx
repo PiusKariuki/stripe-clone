@@ -19,7 +19,7 @@ const ProductChips: React.FC<Props> = ({ icon, name, description }) => {
 						{name}
 					</p>
 					<p
-						className="text-[14px] text-gray-20 font-semibold hidden lg:block
+						className="text-[14px] text-gray-20 font-normal hidden lg:block
                   hover:text-black-30">
 						{description}
 					</p>

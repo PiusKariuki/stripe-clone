@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import Nav from "./components/Nav";
 import Sidebar from "./components/Sidebar";
 import styles from "./styles/Topbar.module.css";
+import arrow from "../../../styles/Arrow.module.css";
 
 const Topbar = () => {
 	const [open, setOpen] = useState(false);
@@ -21,7 +22,9 @@ const Topbar = () => {
 				{open ? <Sidebar setOpen={setOpen} /> : null}
 				<Nav />
 			</div>
-			<button className="hidden lg:flex sign-btn mt-3">Sign in {">"}</button>
+			<button className="hidden lg:flex sign-btn mt-3 group">
+				Sign in <span className="border-white ml-2 arrow before:border-white"></span>
+			</button>
 		</div>
 	);
 };

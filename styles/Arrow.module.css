@@ -1,0 +1,31 @@
+.arrow::before {
+	content: " ";
+	display: none;
+	border-top: 2px solid;
+	width: 10px;
+	position: absolute;
+   left: -2px;
+	bottom: 2px;
+	transform: rotate(-45deg);
+}
+
+.arrow {
+	width: 7px;
+	height: 7px;
+	transform: rotate(45deg);
+	border-top: 2px solid ;
+	border-right: 2px solid ;
+	position: relative;
+	display: block;
+	transition: all 0.2s ease-in-out;
+}
+
+.arrow:hover::before {
+	display: block;
+}
+
+.arrow:hover {
+	transform: translateX(15px);
+	transform-origin: 70% 100%;
+	transform: rotate(45deg);
+}
