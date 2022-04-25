@@ -11,19 +11,26 @@ const Topbar = () => {
 	const [open, setOpen] = useState(false);
 	return (
 		<div
-			className="flex flex-nowrap w-full justify-between lg:justify-between  relative
+			className="flex flex-nowrap w-screen justify-between  relative
          pt-8 px-8 pb-3 lg:pt-[10.3px] xl:px-[150px]">
 			<div className={styles.gradient} />
-			<FontAwesomeIcon icon={faStripe} color="white" className="text-5xl" />
-			<button onClick={() => setOpen(true)} className="md:hidden sign-btn">
+			<FontAwesomeIcon
+				icon={faStripe}
+				color="white"
+				className="flex text-5xl"
+			/>
+			<button
+				onClick={() => setOpen(true)}
+				className="flex md:hidden sign-btn justify-end">
 				<FontAwesomeIcon icon={faBars} className="text-base" />
 			</button>
-			<div className="pt-3">
-				{open ? <Sidebar setOpen={setOpen} /> : null}
-				<Nav />
-			</div>
+
+			{open ? <Sidebar setOpen={setOpen} /> : null}
+
+			<Nav />
 			<button className="hidden lg:flex sign-btn mt-3 group">
-				Sign in <span className="border-white ml-2 arrow before:border-white"></span>
+				Sign in{" "}
+				<span className="border-white ml-2 arrow before:border-white"></span>
 			</button>
 		</div>
 	);

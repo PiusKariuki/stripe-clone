@@ -56,8 +56,6 @@ body::-webkit-scrollbar {
        hover:bg-[hsla(0,0%,100%,0.4)] border-[1px] border-[hsla(0,0%,100%,0.2)];
 	}
 
-
-
 	.arrow {
 		@apply w-[7px] h-[7px] rotate-45 border-t-2 border-r-2 relative block
       transition-all duration-200 ease-in-out before:content-['']
