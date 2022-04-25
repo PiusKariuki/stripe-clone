@@ -20,7 +20,7 @@ const Topbar = () => {
 				{open ? <Sidebar setOpen={setOpen} /> : null}
          		<Nav /> 
 			<button className="hidden lg:flex sign-btn mt-3 group">
-				Sign in <span className="border-white ml-2 arrow before:border-white"></span>
+				Sign in <span className="border-white ml-2 arrow before:border-white"/>
 			</button>
 		</div>
 	);

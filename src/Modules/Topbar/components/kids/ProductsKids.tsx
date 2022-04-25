@@ -1,5 +1,3 @@
-import { faDiamond } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { chipType, products } from "../../../../Shared/Products";
 import Chips from "../Chips";
@@ -7,8 +5,8 @@ import Chips from "../Chips";
 const ProductsKids = () => {
 	return (
 		<div
-			className="absolute top-0 left-0 z-20 overflow-auto bg-transparent flex-col
-         hidden group-hover:flex translate-x-[-22%] translate-y-[8%]">
+			className="absolute top-[66%] left-[-300%] z-20 overflow-auto bg-transparent flex-col
+         hidden group-hover:flex ">
 			<div
 				className=" mx-auto bg-white rounded-md relative w-full grid grid-cols-3
             gap-x-10 min-w-[900px] py-8 px-8 shadow-2xl border-[1px] z-50">

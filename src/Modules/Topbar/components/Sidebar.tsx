@@ -67,7 +67,10 @@ const Sidebar: React.FC<Props> = ({ setOpen }) => {
 							/>
 						))}
 				</div>
-				<button className="blue-btn self-center mt-12">Sign in</button>
+				<button className="blue-btn self-center mt-12 group flex items-center">
+					Sign in
+					<span className="ml-2 border-white arrow before:border-white" />
+				</button>
 			</div>
 		</div>
 	);

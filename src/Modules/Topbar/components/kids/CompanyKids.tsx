@@ -11,8 +11,8 @@ import React from "react";
 const CompanyKids = () => {
 	return (
 		<div
-			className="absolute top-[73%] left-0 z-50 overflow-auto bg-transparent flex-col
-         hidden group-hover:flex translate-x-[-65%] translate[15%]">
+			className="absolute top-[66%] left-[-440%] z-50 overflow-auto bg-transparent flex-col
+         hidden group-hover:flex ">
 			<div
 				className="mx-auto bg-white rounded-md relative shadow-2xl border-[1px]  pt-8 gap-y-6
             min-w-[500px] flex flex-col ">

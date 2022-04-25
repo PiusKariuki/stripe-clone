@@ -3,8 +3,8 @@ import Topbar from "../src/Modules/Topbar/Topbar";
 
 
 const Home: NextPage = () => {
-	return ( 
-		<div className="flex flex-col w-full ">
+	return (
+		<div className="flex flex-col w-full">
          <Topbar />
 		</div>
 	);
