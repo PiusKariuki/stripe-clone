@@ -1,17 +1,20 @@
+import { faDiamond } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { chipType, products } from "../../../Shared/Products";
-import Chips from "./Chips";
+import { chipType, products } from "../../../../Shared/Products";
+import Chips from "../Chips";
 
 const ProductsKids = () => {
 	return (
 		<div
-			className="absolute top-0 left-0 z-50 overflow-auto bg-transparent flex-col
+			className="absolute top-0 left-0 z-20 overflow-auto bg-transparent flex-col
          hidden group-hover:flex translate-x-[-22%] translate-y-[8%]">
-			<div className=" mx-auto bg-white rounded-md relative w-full grid grid-cols-3
-          gap-x-10 min-w-[900px] py-8 px-8 shadow-2xl border-2">
+			<div
+				className=" mx-auto bg-white rounded-md relative w-full grid grid-cols-3
+            gap-x-10 min-w-[900px] py-8 px-8 shadow-2xl border-[1px] z-50">
 				{/* col 1 */}
 				<div className="flex flex-col space-y-8">
-					<p className="text-[13px] font-medium text-gray-20 uppercase">
+					<p className="text-[13px] font-semibold text-gray-20 uppercase">
 						Payments
 					</p>
 					{products
@@ -27,7 +30,7 @@ const ProductsKids = () => {
 				</div>
 				{/* col2 */}
 				<div className="flex flex-col space-y-8">
-					<p className="text-[13px] font-medium text-gray-20 uppercase">
+					<p className="text-[13px] font-semibold text-gray-20 uppercase">
 						Financial Services
 					</p>
 					{products
@@ -43,7 +46,7 @@ const ProductsKids = () => {
 				</div>
 				{/* col3 */}
 				<div className="flex flex-col space-y-8">
-					<p className="text-[13px] font-medium text-gray-20 uppercase">
+					<p className="text-[13px] font-semibold text-gray-20 uppercase">
 						Business Operations
 					</p>
 					{products

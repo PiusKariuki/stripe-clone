@@ -6,7 +6,7 @@ const DeveloperKids = () => {
 	return (
 		<div
 			className="absolute top-0 left-0 z-50 overflow-auto bg-transparent flex-col
-         hidden group-hover:flex translate-x-[-45%] translate-y-[15%]">
+         hidden group-hover:flex translate-x-[-45%] translate-y-[14.5%]">
 			<div
 				className="mx-auto bg-white rounded-md relative shadow-2xl border-[1px]  pt-8 gap-y-6
             min-w-[600px] flex flex-col ">
