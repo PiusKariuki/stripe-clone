@@ -10,8 +10,9 @@ module.exports = {
 			md: "768px",
 			lg: "1024px",
 			xl: "1280px",
-			"2xl": "1440px",
-			"3xl": "2560px",
+			"2xl": "1366px",
+			"3xl": "1440px",
+			"4xl": "2560px",
 		},
 		extend: {
 			colors: {
@@ -28,7 +29,7 @@ module.exports = {
 				gray: {
 					10: "#ADBDCC",
 					20: "#8898AA",
-               30: "#F6F9FC"
+					30: "#F6F9FC",
 				},
 				gradient: {
 					0: "#A960EE",

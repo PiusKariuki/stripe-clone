@@ -8,9 +8,11 @@ import UseCaseKids from "./kids/UseCaseKids";
 
 const Nav = () => {
 	return (
-		<div className="hidden lg:flex gap-x-10 h-20 mt-3 relative">
+		<div className="hidden lg:flex gap-x-10 h-20 relative pt-2">
 			<div className="flex flex-col group relative">
-				<p className="text-[15px] cursor-pointer text-white">Products</p>
+				<p className="text-[14px] font-semibold cursor-pointer text-white">
+					Products
+				</p>
 				<ProductsKids />
 				<FontAwesomeIcon
 					icon={faDiamond}
@@ -19,7 +21,9 @@ const Nav = () => {
 				/>
 			</div>
 			<div className="flex flex-col group relative ">
-				<p className="text-[15px] cursor-pointer text-white">Use cases</p>
+				<p className="text-[14px] font-semibold cursor-pointer text-white">
+					Use cases
+				</p>
 				<UseCaseKids />
 				<FontAwesomeIcon
 					icon={faDiamond}
@@ -28,7 +32,9 @@ const Nav = () => {
 				/>
 			</div>
 			<div className="flex flex-col group relative ">
-				<p className="text-[15px] cursor-pointer text-white">Developers</p>
+				<p className="text-[14px] font-semibold cursor-pointer text-white">
+					Developers
+				</p>
 				<DeveloperKids />
 				<FontAwesomeIcon
 					icon={faDiamond}
@@ -37,7 +43,9 @@ const Nav = () => {
 				/>
 			</div>
 			<div className="flex flex-col group relative ">
-				<p className="text-[15px] cursor-pointer text-white">Company</p>
+				<p className="text-[14px] font-semibold cursor-pointer text-white">
+					Company
+				</p>
 				<CompanyKids />
 				<FontAwesomeIcon
 					icon={faDiamond}
@@ -46,7 +54,9 @@ const Nav = () => {
 				/>
 			</div>
 			<div className="flex flex-col group relative ">
-				<p className="text-[15px] cursor-pointer text-white">Pricing</p>
+				<p className="text-[14px] font-semibold cursor-pointer text-white">
+					Pricing
+				</p>
 			</div>
 		</div>
 	);
