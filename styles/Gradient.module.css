@@ -28,6 +28,12 @@
 	}
 }
 
+@media screen and (min-width: 1366px) {
+	.gradient {
+		height: 76.5vh;
+	}
+}
+
 @media screen and (min-width: 1440px) {
 	.gradient {
 		height: 54vh;
