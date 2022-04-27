@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
 	--angleNormal: -6deg;
@@ -27,7 +27,7 @@ body {
 	overflow-y: scroll;
 	overflow-x: clip;
 	box-sizing: border-box;
-	font-family: "Poppins", Helvetica, sans-serif;
+	font-family: "Roboto", Helvetica, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -65,6 +65,9 @@ body::-webkit-scrollbar {
 
 	.arrow::before {
 		@apply hidden w-[10px] border-t-2 absolute left-[-2px] bottom-[2px]
-      -rotate-45 group-hover:block ;
+      -rotate-45 group-hover:block;
+	}
+	.hero-text {
+		@apply -mt-4 375:-mt-5 2xl:-mt-9 3xl:-mt-8 4xl:-mt-7;
 	}
 }

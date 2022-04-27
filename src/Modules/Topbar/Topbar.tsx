@@ -25,7 +25,7 @@ const Topbar = () => {
 			<Nav />
 
 			<button className="hidden lg:flex sign-btn group">
-				Sign in <span className="border-white ml-2 arrow before:border-white" />
+				Sign in <span className="border-white ml-2 arrow before:border-white align-middle" />
 			</button>
 		</div>
 	);
