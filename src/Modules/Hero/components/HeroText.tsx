@@ -5,7 +5,8 @@ const HeroText = () => {
 		<div 
       className="mt-[48px] flex flex-col text-black-10 font-black
       text-[40px] 375:text-[48px] md:text-[67px] lg:text-[88px]
-      gap-y-0">
+      gap-y-0 w-full
+      ">
 			<p className="-mt-2">Payments</p>
 			<p className="hero-text">infrastructure</p>
 			<p className="hero-text">
