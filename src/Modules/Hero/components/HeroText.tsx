@@ -10,7 +10,7 @@ const HeroText = () => {
 			<p className="hero-text">infrastructure</p>
 			<p className="hero-text">
 				<span className="">for the</span>
-				<span className="block 375:inline-block -mt-4 ml-2">internet</span>
+				<span className="block 320:inline-block -mt-4 ml-2">internet</span>
 			</p>
 
 			<p className="mt-[32px] text-[18px] font-normal text-black-20 pr-4 425:pr-[6px]">

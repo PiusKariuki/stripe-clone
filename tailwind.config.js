@@ -4,6 +4,7 @@ module.exports = {
 		screens: {
 			little: "200px",
 			xs: "300px",
+         320: "320px",
          375: "375px",
 			425: "425px",
 			tab: "540px",
