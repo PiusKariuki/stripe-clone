@@ -7,7 +7,8 @@ const Phone = () => {
 	return (
 		<div
 			className="flex flex-col w-[264px] h-[533px] rounded-[36px] bg-white
-         py-[24px] px-4 items-center border-8 gap-y-4">
+         py-[24px] px-4 items-center border-8 gap-y-4
+         absolute top-16 -left-24 4xl:-left-20">
 			<Image
 				src="/img/small.png"
 				alt=""

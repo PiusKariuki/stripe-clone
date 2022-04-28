@@ -4,7 +4,7 @@ const Event = () => {
 	return (
 		<div
 			className="flex bg-[#121252]/[.3] 
-         w-[96%] 375:w-[78%] 425:w-[70%] md:w-[52%] lg:w-[38%] xl:w-[35%] 2xl:w-[35%]
+         little:w-4/5 xs:w-[68%] 375:w-[0%] 425:w-2/3 tab:w-[45%] md:w-[85%] xl:w-[340px]
          py-2 md:py-[4px]
          rounded  md:rounded-2xl
          text-white  text-sm md:text-xs font-medium

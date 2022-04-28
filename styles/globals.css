@@ -68,6 +68,6 @@ body::-webkit-scrollbar {
       -rotate-45 group-hover:block;
 	}
 	.hero-text {
-		@apply -mt-4 375:-mt-5 2xl:-mt-9 3xl:-mt-8 4xl:-mt-7;
+		@apply  -mt-4 375:-mt-5 tab:-mt-7 md:-mt-8 2xl:-mt-9 3xl:-mt-8 4xl:-mt-7;
 	}
 }

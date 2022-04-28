@@ -4,8 +4,8 @@ module.exports = {
 		screens: {
 			little: "200px",
 			xs: "300px",
-         320: "320px",
-         375: "375px",
+			320: "320px",
+			375: "375px",
 			425: "425px",
 			tab: "540px",
 			sm: "640px",
@@ -17,6 +17,13 @@ module.exports = {
 			"4xl": "2560px",
 		},
 		extend: {
+			gridRow: {
+				"span-7": "span 7 / span 7",
+			},
+			gridTemplateRows: {
+				15: "repeat(15, minmax(0, 1fr))",
+			},
+
 			colors: {
 				black: {
 					10: "#3A3A3A",

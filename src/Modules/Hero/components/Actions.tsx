@@ -2,7 +2,8 @@ import React from "react";
 
 const Actions = () => {
 	return (
-		<div className="flex mt-[32px] items-center gap-x-4">
+		<div className="flex little:flex-col xs:flex-row little:items-start little:gap-y-4
+       mt-[32px] xs:items-center gap-x-4">
 			<button
 				className="group
             pt-[3px] pr-3 pb-[6px] pl-4

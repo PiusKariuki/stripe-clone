@@ -6,7 +6,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 43.5vh;
+	height: 49vh;
 	width: 100%;
 	background: linear-gradient(-12deg, #a960ee, #ff333d, #90e0ff, #ffcb57);
 	background-size: 200% 200%;
@@ -17,13 +17,19 @@
 
 @media screen and (min-width: 320px) {
 	.gradient {
-		height: 61vh;
+		height: 46vh;
 	}
 }
 
 @media screen and (min-width: 375px) {
 	.gradient {
-		height: 52vh;
+		height: 42vh;
+	}
+}
+
+@media screen and (min-width: 540px) {
+	.gradient {
+		height: 58vh;
 	}
 }
 
@@ -31,14 +37,14 @@
 
 @media screen and (min-width: 768px) {
 	.gradient {
-		height: 70.5vh;
+		height: 37vh;
 	}
 }
 
 
 @media screen and (min-width: 1024px) {
 	.gradient {
-		height: 61.5vh;
+		height: 82vh;
 	}
 }
 

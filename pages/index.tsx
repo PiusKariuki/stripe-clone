@@ -7,7 +7,7 @@ const Home: NextPage = () => {
 	return (
 		<div
 			className="flex flex-col w-screen px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px]
-         4xl:px-[760px]">
+         4xl:px-[760px] overflow-x-clip">
 			<div className={`${styles.gradient}`} />
 			<Topbar />
 			<Hero />
