@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Hero from "../src/Modules/Hero/Hero";
+import Icons from "../src/Modules/Icons/Icons";
 import Topbar from "../src/Modules/Topbar/Topbar";
 import styles from "../styles/Gradient.module.css";
 
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
 			<div className={`${styles.gradient}`} />
 			<Topbar />
 			<Hero />
+         <Icons />
 		</div>
 	);
 };

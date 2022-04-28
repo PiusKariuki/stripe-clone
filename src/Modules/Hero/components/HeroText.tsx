@@ -4,7 +4,7 @@ const HeroText = () => {
 	return (
 		<div 
       className="mt-[48px] flex flex-col text-black-10 font-black
-      little:text-[40px] xs:text-[48px] 375:text-[48px] tab:text-[70px] md:text-[74px] lg:text-[88px]
+      text-[35px] 320:text-[48px]  375:text-[48px] tab:text-[70px] md:text-[74px] lg:text-[88px]
       gap-y-0 w-full
       ">
 			<p className="-mt-2">Payments</p>
