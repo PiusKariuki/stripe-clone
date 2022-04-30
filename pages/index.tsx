@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Cards from "../src/Modules/Cards/Cards";
 import Hero from "../src/Modules/Hero/Hero";
 import Icons from "../src/Modules/Icons/Icons";
 import Topbar from "../src/Modules/Topbar/Topbar";
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
 			<Hero />
          <Icons />
          <Unified />
+         <Cards />
 		</div>
 	);
 };
