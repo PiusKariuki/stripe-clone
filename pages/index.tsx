@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Cards from "../src/Modules/Cards/Cards";
 import Code from "../src/Modules/Code/Code";
+import Globe from "../src/Modules/Globe/Globe";
 import Hero from "../src/Modules/Hero/Hero";
 import Icons from "../src/Modules/Icons/Icons";
 import Tech from "../src/Modules/Tech/Tech";
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
          <Cards />
          <Code />
          <Tech />
+         <Globe />
 		</div>
 	);
 };

@@ -54,6 +54,7 @@ module.exports = {
 				},
 			},
 			backgroundImage: {
+				globe: "url('/img/globe.png')",
 				picture: "url('/img/picture.png')",
 			},
 		},

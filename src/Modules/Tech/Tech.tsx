@@ -5,7 +5,7 @@ import Jumbo from "./components/Jumbo";
 const Tech = () => {
 	return (
 		<div
-			className="flex flex-col py-[72px] 3xl:py-[200px] gap-y-6 
+			className="flex flex-col py-[72px] 2xl:py-[200px] gap-y-6
          px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[760px]">
 			<p className="text-blue-10 text-[18px] font-semibold  md:max-w-[700px]">
 				Why Stripe
