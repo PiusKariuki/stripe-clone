@@ -7,7 +7,7 @@ const BarChart = () => {
 			className="flex h-[450px] w-[700px] lg:w-[640px]
          relative bg-white  rounded-md shadow-xl flex-shrink-0">
 			<Image
-				src="/img/barchart.svg"
+				src="/img/graphic.svg"
 				alt=""
 				layout="fill"
 				objectFit="cover"

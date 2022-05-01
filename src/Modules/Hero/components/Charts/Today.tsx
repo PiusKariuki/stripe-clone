@@ -10,7 +10,6 @@ const Today = () => {
 			<div className="flex w-full items-center pt-4">
 				<div className="flex flex-col w-full border-gray-200 border-[0.5px]">
 					<Image
-						// src="/img/graph.jpg"
 						src="/img/grphic.svg"
 						alt=""
 						width={200}
@@ -23,7 +22,7 @@ const Today = () => {
 
 				<div className="flex flex-col gap-y-6 items-center border-gray-200 border-[0.5px] p-2">
 					<Image
-						src="/img/arrow.svg"
+						src="/img/line.png"
 						alt=""
 						width={200}
 						height={72}
@@ -32,7 +31,7 @@ const Today = () => {
 						className="text-white justify-start object-center"
 					/>
 					<Image
-						src="/img/arrow.svg"
+						src="/img/line.png"
 						alt=""
 						width={200}
 						height={72}
