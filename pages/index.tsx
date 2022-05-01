@@ -4,6 +4,7 @@ import Code from "../src/Modules/Code/Code";
 import Globe from "../src/Modules/Globe/Globe";
 import Hero from "../src/Modules/Hero/Hero";
 import Icons from "../src/Modules/Icons/Icons";
+import Started from "../src/Modules/Started/Started";
 import Tech from "../src/Modules/Tech/Tech";
 import Topbar from "../src/Modules/Topbar/Topbar";
 import Unified from "../src/Modules/Unified/Unified";
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
          <Code />
          <Tech />
          <Globe />
+         <Started />
 		</div>
 	);
 };
