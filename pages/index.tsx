@@ -3,6 +3,7 @@ import Cards from "../src/Modules/Cards/Cards";
 import Code from "../src/Modules/Code/Code";
 import Hero from "../src/Modules/Hero/Hero";
 import Icons from "../src/Modules/Icons/Icons";
+import Tech from "../src/Modules/Tech/Tech";
 import Topbar from "../src/Modules/Topbar/Topbar";
 import Unified from "../src/Modules/Unified/Unified";
 import styles from "../styles/Gradient.module.css";
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
          <Unified />
          <Cards />
          <Code />
+         <Tech />
 		</div>
 	);
 };

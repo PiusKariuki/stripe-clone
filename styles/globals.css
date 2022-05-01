@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 
 :root {
 	--angleNormal: -6deg;
@@ -14,6 +14,10 @@
 	--gradientColorOneTransparent: rgba(255, 51, 61, 0);
 	--gradientColorTwoTransparent: rgba(144, 224, 255, 0);
 	--gradientColorThreeTransparent: rgba(255, 203, 87, 0);
+
+   --blendBackground: #80e9ff;
+    --blendIntersection: #0048e5;
+    --blendForeground: #7a73ff;
 }
 
 html {
@@ -35,8 +39,8 @@ body::-webkit-scrollbar {
 	display: none; /* for Chrome, Safari, and Opera */
 }
 
-.code{
-   font-family: 'Source Code Pro', monospace;
+.code {
+	font-family: "Source Code Pro", monospace;
 }
 
 @tailwind base;
@@ -78,7 +82,10 @@ body::-webkit-scrollbar {
 	.blue-text {
 		@apply text-blue-10 font-semibold hover:text-black-20;
 	}
-   .line-number{
-      @apply text-[#55718D] mr-6;
-   }
+	.line-number {
+		@apply text-[#55718D] mr-6;
+	}
+	.text-link {
+		@apply text-blue-10 hover:text-black-30;
+	}
 }
