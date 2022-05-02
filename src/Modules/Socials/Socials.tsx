@@ -12,8 +12,9 @@ import Text from "./components/Text";
 const Socials = () => {
 	return (
 		<div
-			className="flex flex-row flex-wrap md:flex-nowrap relative z-30 min-h-screen gap-14 md:gap-16  lg:gap-36
-         py-[72px] px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[760px]">
+			className="flex flex-row flex-wrap md:flex-nowrap relative z-30 min-h-screen 
+         gap-14 md:gap-16  lg:gap-36 py-[72px] px-1 375:px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px]
+          4xl:px-[760px]">
 			<div
 				className="flex absolute w-[200vw] h-full lg:h-[110%] 4xl:h-[120%] origin-bottom-left
             -z-20 bg-gray-30 -skew-y-6 -left-1/4 top-10 "
@@ -34,37 +35,41 @@ const Socials = () => {
 				</div>
 			</div>
 
-			<div className="flex flex-col md:-ml-10">
-				<div className="flex flex-col gap-4 h-fit">
-					<p className="text-[15px] text-black-30 font-semibold">Products</p>
-					<div className="flex flex-col gap-1">
-						{products.map((product: chipType, index: number) => (
-							<Text key={index} text={product.name} />
-						))}
+			<div className="flex gap-20">
+				<div className="flex flex-col md:-ml-10 w-full">
+					<div className="flex flex-col gap-4 h-fit">
+						<p className="text-[15px] text-black-30 font-semibold">Products</p>
+						<div className="flex flex-col gap-1">
+							{products.map((product: chipType, index: number) => (
+								<Text key={index} text={product.name} />
+							))}
+						</div>
+					</div>
+				</div>
+
+				<div className="flex flex-row flex-wrap md:flex-col gap-8 w-full">
+					<div className="flex flex-col gap-4 h-fit">
+						<p className="text-[15px] text-black-30 font-semibold">
+							Developers
+						</p>
+						<div className="flex flex-col gap-1">
+							{devText.map((dev: string, index: number) => (
+								<Text key={index} text={dev} />
+							))}
+						</div>
+					</div>
+					<div className="flex flex-col gap-4 h-fit w-full">
+						<p className="text-[15px] text-black-30 font-semibold">Company</p>
+						<div className="flex flex-col gap-1">
+							{companyText.map((dev: string, index: number) => (
+								<Text key={index} text={dev} />
+							))}
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className="flex flex-col gap-8">
-				<div className="flex flex-col gap-4 h-fit">
-					<p className="text-[15px] text-black-30 font-semibold">Developers</p>
-					<div className="flex flex-col gap-1">
-						{devText.map((dev: string, index: number) => (
-							<Text key={index} text={dev} />
-						))}
-					</div>
-				</div>
-				<div className="flex flex-col gap-4 h-fit">
-					<p className="text-[15px] text-black-30 font-semibold">Company</p>
-					<div className="flex flex-col gap-1">
-						{companyText.map((dev: string, index: number) => (
-							<Text key={index} text={dev} />
-						))}
-					</div>
-				</div>
-			</div>
-
-			<div className="flex flex-row md:flex-col gap-20 md:gap-8">
+			<div className="flex flex-row md:flex-col gap-24 tab:gap-32 md:gap-8">
 				<div className="flex flex-col gap-4 h-fit">
 					<p className="text-[15px] text-black-30 font-semibold">Use cases</p>
 					<div className="flex flex-col gap-1">

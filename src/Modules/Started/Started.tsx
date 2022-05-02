@@ -15,9 +15,9 @@ const Started = () => {
 					an account instantly and start accepting payments. You can also
 					contact us to design a custom package for your business.
 				</p>
-				<div className="flex items-center gap-x-8">
+				<div className="flex flex-col 375:flex-row 375:items-center gap-x-8 gap-y-2">
 					<button
-						className="group
+						className="group w-32
                   pt-[3px] pr-3 pb-[6px] pl-4
                   items-center  rounded-[2rem] text-white bg-blue-10
                   hover:bg-black-30 border-[1px]">
