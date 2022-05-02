@@ -12,15 +12,14 @@ import Text from "./components/Text";
 const Socials = () => {
 	return (
 		<div
-			className="flex flex-row flex-wrap md:flex-nowrap relative z-30 min-h-screen 
-         gap-14 md:gap-16  lg:gap-36 py-[72px] px-1 375:px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px]
-          4xl:px-[760px]">
+			className="flex flex-row flex-wrap md:flex-nowrap relative z-30 
+         py-[72px] px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[760px]
+         w-full gap-y-8 md:gap-x-24 lg:gap-x-28">
 			<div
 				className="flex absolute w-[200vw] h-full lg:h-[110%] 4xl:h-[120%] origin-bottom-left
             -z-20 bg-gray-30 -skew-y-6 -left-1/4 top-10 "
 			/>
-			{/* ................................ */}
-			<div className="flex flex-col max-w-[90vw] md:max-w-xs">
+			<div className="flex flex-col max-w-[90vw] ">
 				<FontAwesomeIcon icon={faStripe} className="self-start text-6xl" />
 				<div className="flex gap-x-4 items-center">
 					<FontAwesomeIcon icon={faPaperPlane} className=" text-xs" />
@@ -35,9 +34,9 @@ const Socials = () => {
 				</div>
 			</div>
 
-			<div className="flex gap-20">
-				<div className="flex flex-col md:-ml-10 w-full">
-					<div className="flex flex-col gap-4 h-fit">
+			<div className="flex flex-row gap-x-8 md:gap-x-24 lg:gap-x-28">
+				<div className="flex flex-col md:-ml-10  max-w-[40%] 320:max-w-full">
+					<div className="flex flex-col gap-y-4 h-fit">
 						<p className="text-[15px] text-black-30 font-semibold">Products</p>
 						<div className="flex flex-col gap-1">
 							{products.map((product: chipType, index: number) => (
@@ -46,8 +45,7 @@ const Socials = () => {
 						</div>
 					</div>
 				</div>
-
-				<div className="flex flex-row flex-wrap md:flex-col gap-8 w-full">
+				<div className="flex flex-col gap-y-40 md:gap-y-8">
 					<div className="flex flex-col gap-4 h-fit">
 						<p className="text-[15px] text-black-30 font-semibold">
 							Developers
@@ -58,7 +56,7 @@ const Socials = () => {
 							))}
 						</div>
 					</div>
-					<div className="flex flex-col gap-4 h-fit w-full">
+					<div className="flex flex-col gap-4 h-fit ">
 						<p className="text-[15px] text-black-30 font-semibold">Company</p>
 						<div className="flex flex-col gap-1">
 							{companyText.map((dev: string, index: number) => (
@@ -69,7 +67,7 @@ const Socials = () => {
 				</div>
 			</div>
 
-			<div className="flex flex-row md:flex-col gap-24 tab:gap-32 md:gap-8">
+			<div className="flex flex-row md:flex-col gap-x-8 320:gap-x-16 gap-y-8">
 				<div className="flex flex-col gap-4 h-fit">
 					<p className="text-[15px] text-black-30 font-semibold">Use cases</p>
 					<div className="flex flex-col gap-1">
@@ -80,7 +78,7 @@ const Socials = () => {
 							))}
 					</div>
 				</div>
-				<div className="flex flex-col gap-4 h-fit">
+				<div className="flex flex-col gap-y-4 h-fit">
 					<p className="text-[15px] text-black-30 font-semibold">Resources</p>
 					<div className="flex flex-col gap-1">
 						{resourcesText.map((dev: string, index: number) => (
