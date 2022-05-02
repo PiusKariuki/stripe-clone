@@ -4,7 +4,7 @@ const Started = () => {
   return (
 		<div
 			className="flex flex-col lg:flex-row z-10 bg-white w-full h-full -mt-[350px] md:-mt-[300px]
-         gap-y-6 gap-x-6 pt-[121px] pb-[231px] px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px]
+         gap-y-6 gap-x-6 pt-[121px] pb-[100px] px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px]
          4xl:px-[760px] ">
 			<div className="flex flex-col gap-y-8 md:max-w-[600px] lg:max-w-sm lg:mr-20">
 				<p className="text-[24px] text-black-30 font-semibold">
@@ -24,11 +24,11 @@ const Started = () => {
 						Start now
 						<span className="border-white ml-2 arrow before:border-white inline-block align-middle" />
 					</button>
-					<p className="text-blue-10 group font-medium">
+					<p className="text-blue-10 group font-medium hover:text-black-30">
 						Contact sales
 						<span
-							className="border-blue-10  ml-2 arrow before:border-blue-10  inline-block 
-                     align-middle"
+							className="border-blue-10  ml-2 arrow before:border-blue-10  inline-block
+                     hover:border-black-30  align-middle"
 						/>
 					</p>
 				</div>
