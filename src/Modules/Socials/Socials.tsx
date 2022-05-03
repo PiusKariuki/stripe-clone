@@ -12,12 +12,8 @@ import Text from "./components/Text";
 const Socials = () => {
 	return (
 		<div
-			className="flex flex-row flex-wrap md:flex-nowrap  relative md:-mt-20 z-10
-          pt-[200px] pb-44 w-full gap-y-8 md:gap-x-24 lg:gap-x-28 ">
-			<div
-				className="flex absolute w-[300vw] h-full  -z-20
-            bg-gray-30 -skew-y-6 -left-[100vw] top-1/2 -translate-y-[40%] 5xl:-translate-y-[70%]"
-			/>
+			className="flex flex-row flex-wrap md:flex-nowrap  relative md:-mt-10 z-30
+          pt-[72px] pb-44 w-full gap-y-8 md:gap-x-24 lg:gap-x-28 overflow-y-clip">
 			<div className="flex flex-col max-w-[90vw]">
 				<FontAwesomeIcon icon={faStripe} className="self-start text-6xl" />
 				<div className="flex gap-x-4 items-center">
