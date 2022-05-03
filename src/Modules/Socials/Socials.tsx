@@ -12,13 +12,13 @@ import Text from "./components/Text";
 const Socials = () => {
 	return (
 		<div
-			className="flex flex-row flex-wrap md:flex-nowrap relative z-30 
-         py-[72px] w-full gap-y-8 md:gap-x-24 lg:gap-x-28">
+			className="flex flex-row flex-wrap md:flex-nowrap  relative md:-mt-20 z-10
+          pt-[200px] pb-44 w-full gap-y-8 md:gap-x-24 lg:gap-x-28 ">
 			<div
-				className="flex absolute w-[200vw] h-full lg:h-[110%] 4xl:h-[120%] origin-bottom-left
-            -z-20 bg-gray-30 -skew-y-6 -left-1/4 top-10 "
+				className="flex absolute w-[300vw] h-full  -z-20
+            bg-gray-30 -skew-y-6 -left-[100vw] top-1/2 -translate-y-[40%] 5xl:-translate-y-[70%]"
 			/>
-			<div className="flex flex-col max-w-[90vw] ">
+			<div className="flex flex-col max-w-[90vw]">
 				<FontAwesomeIcon icon={faStripe} className="self-start text-6xl" />
 				<div className="flex gap-x-4 items-center">
 					<FontAwesomeIcon icon={faPaperPlane} className=" text-xs" />

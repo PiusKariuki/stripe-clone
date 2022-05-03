@@ -7,23 +7,20 @@ import Visa from "./components/Visa";
 
 const Cards = () => {
 	return (
-		<div
-			className="flex  bg-gray-30 gap-6 lg:gap-8 overflow-x-clip min-w-[100vw]">
+		<div className="flex  relative gap-6 lg:gap-8 overflow-x-clip min-w-[100vw]">
 			<div className="flex flex-col items-center gap-6">
 				<Visa />
 				<Phone />
 			</div>
 
 			<div className="flex flex-col  gap-6">
-            <div className="flex gap-x-4 relative">
-              <Invoice /> 
-              <BlackPhone />
-            </div>
-				
+				<div className="flex gap-x-4 relative">
+					<Invoice />
+					<BlackPhone />
+				</div>
+
 				<BarChart />
 			</div>
-
-			
 		</div>
 	);
 };

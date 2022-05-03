@@ -7,11 +7,11 @@ import Tools from "./Components/Tools";
 const Code = () => {
 	return (
 		<div
-			className="flex flex-col w-screen md:flex-row relative py-[140px]
+			className="flex flex-col md:flex-row relative py-[140px] 2xl:-mt-20
          gap-x-8 2xl:gap-x-24 gap-y-8">
 			<div
-				className="flex absolute w-[200vw] h-[98%] lg:h-[110%] origin-bottom-left z-0 bg-black-30 -skew-y-6
-            -left-1/4 top-10"
+				className="flex absolute w-[300vw] h-full  z-0
+            bg-black-30 -skew-y-6 -left-[100vw] top-1/2 -translate-y-1/2 5xl:-translate-y-[70%]"
 			/>
 			<div className="flex flex-col z-10 gap-6 w-full">
 				<ForDevs />
@@ -20,7 +20,7 @@ const Code = () => {
 					<Integrations />
 				</div>
 			</div>
-			<div className="flex w-full z-10">
+			<div className="flex w-full z-10 self-center justify-center">
 				<SourceCode />
 			</div>
 		</div>

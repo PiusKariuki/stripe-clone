@@ -2,10 +2,14 @@ import React from "react";
 
 const Unified = () => {
 	return (
-		<div
-			className="w-full py-[72px] flex flex-col relative bg-gray-30 gap-y-8">
+		<div className="w-full py-[72px] flex flex-col relative bg-gray-30 gap-y-8">
+			<div
+				className="flex absolute w-[300vw] min-h-[280%] -z-10
+            bg-gray-30  -left-[100vw] top-0"
+			/>
 			<p className="text-blue-10 font-bold text-[18px]">Unified platform</p>
-			<p className="text-[34px]  font-bold text-black-30 leading-normal max-w-[250px] 320:max-w-sm
+			<p
+				className="text-[34px]  font-bold text-black-30 leading-normal max-w-[250px] 320:max-w-sm
          md:max-w-xs lg:max-w-md">
 				A fully integrated suite of payments products
 			</p>
