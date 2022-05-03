@@ -17,14 +17,12 @@ const Started = () => {
 				</p>
 				<div className="flex flex-col 375:flex-row 375:items-center gap-x-8 gap-y-2">
 					<button
-						className="group w-32
-                  pt-[3px] pr-3 pb-[6px] pl-4
-                  items-center  rounded-[2rem] text-white bg-blue-10
-                  hover:bg-black-30 border-[1px]">
+						className="group w-32 py-[6px] px-4 items-center  rounded-[2rem]
+                  text-white bg-blue-10 hover:bg-black-30 border-[1px] text-[15px]">
 						Start now
 						<span className="border-white ml-2 arrow before:border-white inline-block align-middle" />
 					</button>
-					<p className="text-blue-10 group font-medium hover:text-black-30">
+					<p className="text-blue-10 group font-semibold hover:text-black-30 text-[15px]">
 						Contact sales
 						<span
 							className="border-blue-10  ml-2 arrow before:border-blue-10  inline-block

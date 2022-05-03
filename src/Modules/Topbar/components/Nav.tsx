@@ -8,9 +8,9 @@ import UseCaseKids from "./kids/UseCaseKids";
 
 const Nav = () => {
 	return (
-		<div className="hidden lg:flex gap-x-10 h-20 relative pt-2">
+		<div className="hidden lg:flex gap-x-10 h-20 relative pt-2 font-semibold">
 			<div className="flex flex-col group relative">
-				<p className="text-[14px] font-semibold cursor-pointer text-white">
+				<p className="text-[14px] cursor-pointer text-white">
 					Products
 				</p>
 				<ProductsKids />
@@ -21,7 +21,7 @@ const Nav = () => {
 				/>
 			</div>
 			<div className="flex flex-col group relative ">
-				<p className="text-[14px] font-semibold cursor-pointer text-white">
+				<p className="text-[14px] cursor-pointer text-white">
 					Use cases
 				</p>
 				<UseCaseKids />
@@ -32,7 +32,7 @@ const Nav = () => {
 				/>
 			</div>
 			<div className="flex flex-col group relative ">
-				<p className="text-[14px] font-semibold cursor-pointer text-white">
+				<p className="text-[14px] cursor-pointer text-white">
 					Developers
 				</p>
 				<DeveloperKids />
@@ -43,7 +43,7 @@ const Nav = () => {
 				/>
 			</div>
 			<div className="flex flex-col group relative ">
-				<p className="text-[14px] font-semibold cursor-pointer text-white">
+				<p className="text-[14px] cursor-pointer text-white">
 					Company
 				</p>
 				<CompanyKids />
@@ -54,7 +54,7 @@ const Nav = () => {
 				/>
 			</div>
 			<div className="flex flex-col group relative ">
-				<p className="text-[14px] font-semibold cursor-pointer text-white">
+				<p className="text-[14px] cursor-pointer text-white">
 					Pricing
 				</p>
 			</div>

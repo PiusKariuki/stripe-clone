@@ -7,11 +7,11 @@ const BarChart = () => {
 			className="flex h-[450px] w-[700px] lg:w-[640px]
          relative bg-white  rounded-md shadow-xl flex-shrink-0">
 			<Image
-				src="/img/graphic.svg"
+				src="/img/presentation.svg"
 				alt=""
 				layout="fill"
 				objectFit="cover"
-				className="rounded-lg object-scale-down"
+				className="rounded-md object-scale-down"
 			/>
 		</div>
 	);

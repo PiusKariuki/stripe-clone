@@ -18,29 +18,29 @@ const Phone = () => {
 				className="-rotate-90 rounded-lg object-scale-down"
 			/>
 			<div className="flex flex-col items-center">
-				<p className="text-black-10 text-[0.8rem] font-semibold">
+				<p className="text-black-10 text-[0.8rem] font-medium">
 					Increment Magazine
 				</p>
-				<p className="text-black-20 text-[0.8rem] font-light">
+				<p className="text-gray-20 text-[0.8rem] font-thin">
 					$14 per quarter
 				</p>
 			</div>
 
 			<FontAwesomeIcon
 				icon={faApplePay}
-				className="w-full bg-black-30 text-white py-1 rounded-md text-[1.4rem]"
+				className="w-full bg-black-30 text-white py-1 rounded-md text-[1.4rem] font-semibold"
 			/>
 
 			<div className="flex w-full items-center justify-center text-black-20">
 				<hr className="w-1/4" />
-				<p className="mx-2 text-xs">Or pay with card</p>
+				<p className="mx-2 text-[12px] text-gray-20 font-thin">Or pay with card</p>
 				<hr className="w-1/4" />
 			</div>
 
 			<div className="flex flex-col w-full gap-y-4">
 				{/* email */}
 				<div className="flex flex-col gap-y-1">
-					<label htmlFor="email" className="text-xs text-black-20">
+					<label htmlFor="email" className="text-xs text-gray-20 font-[300]">
 						Email
 					</label>
 					<input
@@ -52,7 +52,7 @@ const Phone = () => {
 
 				{/* card info */}
 				<div className="flex flex-col gap-y-1">
-					<label htmlFor="card" className="text-xs text-black-20">
+					<label htmlFor="card" className="text-xs text-black-20 font-extralight font-roboto">
 						Card Information
 					</label>
 					<div className="flex flex-col w-full placeholder:text-green-500">

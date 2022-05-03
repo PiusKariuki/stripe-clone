@@ -4,11 +4,11 @@ import React from "react";
 
 const SourceCode = () => {
 	return (
-		<div className="flex flex-col overflow-x-clip md:max-w-[50vw] 2xl:max-w-[560px]">
+		<div className="flex flex-col overflow-x-clip md:max-w-[50vw] 2xl:max-w-[560px] font-code">
 			<code
 				className="w-full flex flex-col overflow-x-clip bg-[#0c2e4e] p-6 shadow-2xl rounded-t-md
-            gap-y-2 pb-32">
-				<pre className="text-sm">
+            gap-y-2 pb-32 font-code">
+				<pre className="text-sm font-code">
 					<span className="line-number">1</span>
 					<span className="text-blue-10">const</span>
 					<span className="text-white"> stripe</span>
@@ -20,28 +20,28 @@ const SourceCode = () => {
 					<span className="text-white">(</span>
 					<span className="text-[#FFA956]"> {"'sk_test_BQokikJOvBi2Hl4'"}</span>
 				</pre>
-				<pre className="text-sm">
+				<pre className="text-sm font-code">
 					<span className="line-number">2</span>
 				</pre>
-				<pre className="text-sm">
+				<pre className="text-sm font-code">
 					<span className="line-number">3</span>
 					<span className="text-blue-10">await</span>
 					<span className="text-white"> stripe.paymentIntents.</span>
 					<span className="text-blue-10">create</span>
 					<span className="text-white">{"({"}</span>
 				</pre>
-				<pre className="text-sm">
+				<pre className="text-sm font-code">
 					<span className="line-number">4</span>
 					<span className="text-white ml-2"> amount:</span>
 					<span className="text-[#FFA956]"> 2000</span>
 					<span className="text-white">,</span>
 				</pre>
-				<pre className="text-sm">
+				<pre className="text-sm font-code">
 					<span className="line-number">5</span>
 					<span className="text-white ml-2"> currency:</span>
 					<span className="text-[#FFA956]"> {"'usd'"}</span>
 				</pre>
-				<pre className="text-sm">
+				<pre className="text-sm font-code">
 					<span className="line-number">6</span>
 					<span className="text-white"> {"});"}</span>
 				</pre>

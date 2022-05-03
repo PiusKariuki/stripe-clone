@@ -16,7 +16,7 @@ const ForDevs = () => {
 			</p>
 			<button
 				className="w-44 px-4 py-1 items-center  rounded-[2rem] text-black-10 font-bold bg-blue-20
-            hover:bg-white border-[1px] group">
+            hover:bg-white border-[1px] group text-[15px]">
 				Read the docs
 				<span 
             className="border-black-10 ml-2 arrow before:border-black-10 align-middle

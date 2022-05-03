@@ -17,6 +17,11 @@ module.exports = {
 			"4xl": "2560px",
 		},
 		extend: {
+			fontFamily: {
+				lato: ["'Open Sans'", "sans-serif"],
+				roboto: ["'Roboto'", "sans-serif"],
+				code: ["'Source Code Pro'", "monospace"],
+			},
 			gridRow: {
 				"span-7": "span 7 / span 7",
 			},

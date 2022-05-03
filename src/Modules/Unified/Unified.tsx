@@ -36,10 +36,8 @@ const Unified = () => {
 			</div>
 
 			<button
-				className="group
-            pt-[3px]  pb-[6px] 
-            items-center  rounded-[16.5px] text-white bg-blue-10 w-[200px]
-            hover:bg-black-30 border-[1px]">
+				className="group py-1 items-center  rounded-[16.5px] text-white bg-blue-10 w-[200px]
+            hover:bg-black-30 border-[1px] text-[15px] font-medium">
 				Start with payments
 				<span className="border-white ml-2 arrow before:border-white inline-block align-middle" />
 			</button>

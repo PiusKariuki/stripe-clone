@@ -36,7 +36,7 @@ const Phone = () => {
 				className="w-full bg-black-30 text-white py-[2px] rounded-md text-[1.4rem] mt-5 mb-4"
 			/>
 
-			<div className="flex flex-col w-full h-full bg-white rounded-t-md rounded-b-[26px] px-4">
+			<div className="flex flex-col w-full h-full bg-white rounded-t-md rounded-b-[26px] px-4 text-gray-20">
 				<div className="flex w-dull justify-between items-center">
 					<FontAwesomeIcon
 						icon={faApplePay}
@@ -46,7 +46,7 @@ const Phone = () => {
 				</div>
 
 				<hr />
-				<div className="flex w-full py-4 justify-center gap-x-3 items-center text-black-20">
+				<div className="flex w-full py-4 justify-center gap-x-3 items-center  font-light">
 					<Image
 						src="/img/visa.svg"
 						alt=""
