@@ -8,8 +8,7 @@ import Visa from "./components/Visa";
 const Cards = () => {
 	return (
 		<div
-			className="flex  bg-gray-30 gap-6 lg:gap-8 overflow-x-clip
-         pl-3 xl:pl-[120px] 2xl:pl-[160px] 3xl:pl-[200px] 4xl:pl-[760px]">
+			className="flex  bg-gray-30 gap-6 lg:gap-8 overflow-x-clip min-w-[100vw]">
 			<div className="flex flex-col items-center gap-6">
 				<Visa />
 				<Phone />

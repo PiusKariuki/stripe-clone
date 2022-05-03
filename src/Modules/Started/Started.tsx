@@ -4,8 +4,7 @@ const Started = () => {
   return (
 		<div
 			className="flex flex-col lg:flex-row z-10 bg-white w-full h-full -mt-[350px] md:-mt-[300px]
-         gap-y-6 gap-x-6 pt-[121px] pb-[100px] px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px]
-         4xl:px-[760px] ">
+         gap-y-6 gap-x-6 pt-[121px] pb-[100px]">
 			<div className="flex flex-col gap-y-8 md:max-w-[600px] lg:max-w-sm lg:mr-20">
 				<p className="text-[24px] text-black-30 font-semibold">
 					Ready to get started?

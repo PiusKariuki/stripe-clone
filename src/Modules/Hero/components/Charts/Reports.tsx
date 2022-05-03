@@ -7,7 +7,7 @@ const Reports = () => {
 			className="col-start-2 row-start-8 col-span-3 row-span-7 flex justify-between
          bg-white rounded-md p-6 shadow-lg">
 			<Image
-				src="/img/graphic.svg"
+				src="/img/algo.svg"
 				alt=""
 				width={200}
 				height={40}
@@ -16,7 +16,7 @@ const Reports = () => {
 				className="text-white justify-start object-center border-2"
 			/>
 			<Image
-				src="/img/graphic.svg"
+				src="/img/algo2.svg"
 				alt=""
 				width={200}
 				height={40}
@@ -25,7 +25,7 @@ const Reports = () => {
 				className="text-white justify-start object-center border-2"
 			/>
 			<Image
-				src="/img/graphic.svg"
+				src="/img/algo1.svg"
 				alt=""
 				width={200}
 				height={40}

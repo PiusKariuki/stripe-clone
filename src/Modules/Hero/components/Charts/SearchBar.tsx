@@ -13,9 +13,9 @@ const SearchBar = () => {
 				/>
 				<FontAwesomeIcon
 					icon={faSearch}
-					className="absolute left-2 top-[50%] text-xs translate-y-[-50%] text-black-10"
+					className="absolute left-2 top-[50%] text-xs translate-y-[-50%] text-gray-20"
 				/>
-				<p className="absolute left-7 top-[50%] text-xs translate-y-[-50%] text-black-10">
+				<p className="absolute left-7 top-[50%] text-xs translate-y-[-50%] text-gray-20">
 					Search
 				</p>
 			</div>

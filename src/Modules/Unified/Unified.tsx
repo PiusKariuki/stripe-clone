@@ -3,8 +3,7 @@ import React from "react";
 const Unified = () => {
 	return (
 		<div
-			className="w-full py-[72px] flex flex-col relative bg-gray-30 gap-y-8
-         px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[760px]">
+			className="w-full py-[72px] flex flex-col relative bg-gray-30 gap-y-8">
 			<p className="text-blue-10 font-bold text-[18px]">Unified platform</p>
 			<p className="text-[34px]  font-bold text-black-30 leading-normal max-w-[250px] 320:max-w-sm
          md:max-w-xs lg:max-w-md">

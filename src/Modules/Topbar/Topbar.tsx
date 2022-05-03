@@ -9,8 +9,7 @@ const Topbar = () => {
 	const [open, setOpen] = useState(false);
 	return (
 		<div
-			className="flex w-full justify-between z-10 pt-8 lg:pt-5
-          px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px]  4xl:px-[760px]">
+			className="flex w-full justify-between z-10 pt-8 lg:pt-5">
 			<FontAwesomeIcon
 				icon={faStripe}
 				color="white"

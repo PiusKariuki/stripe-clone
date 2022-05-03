@@ -5,12 +5,12 @@ const Today = () => {
 	return (
 		<div
 			className="col-start-2 row-start-2  col-span-3 row-span-7 flex flex-col bg-white rounded-md p-6
-      shadow-lg">
-			<p className="text-base border-b-[0.5px]">Today</p>
+         shadow-lg">
+			<p className="text-base border-b-[0.5px] font-semibold">Today</p>
 			<div className="flex w-full items-center pt-4">
 				<div className="flex flex-col w-full border-gray-200 border-[0.5px]">
 					<Image
-						src="/img/grphic.svg"
+						src="/img/presentation.svg"
 						alt=""
 						width={200}
 						height={150}
@@ -22,7 +22,7 @@ const Today = () => {
 
 				<div className="flex flex-col gap-y-6 items-center border-gray-200 border-[0.5px] p-2">
 					<Image
-						src="/img/line.png"
+						src="/img/algo1.svg"
 						alt=""
 						width={200}
 						height={72}
@@ -31,7 +31,7 @@ const Today = () => {
 						className="text-white justify-start object-center"
 					/>
 					<Image
-						src="/img/line.png"
+						src="/img/algo2.svg"
 						alt=""
 						width={200}
 						height={72}

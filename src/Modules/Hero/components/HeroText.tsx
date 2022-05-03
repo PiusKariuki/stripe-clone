@@ -16,7 +16,9 @@ const HeroText = () => {
 				</span>
 			</p>
 
-			<p className="mt-[32px] text-[18px] font-normal text-black-20 little:pr-10 pr-4 425:pr-[6px] tracking-wide">
+			<p 
+         className="mt-[32px] text-[18px] font-normal text-black-20 little:pr-10 pr-4 425:pr-[6px] 
+         tracking-wide flex flex-wrap max-w-xl">
 				Millions of companies of all sizes—from startups to Fortune 500s—use
 				Stripe’s software and APIs to accept payments, send payouts, and manage
 				their businesses online.

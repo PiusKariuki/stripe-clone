@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import Cards from "../src/Modules/Cards/Cards";
 import Code from "../src/Modules/Code/Code";
 import Globe from "../src/Modules/Globe/Globe";
@@ -15,18 +14,19 @@ import styles from "../styles/Gradient.module.css";
 const Home: NextPage = () => {
 	return (
 		<div
-			className="flex flex-col w-screen  overflow-x-clip max-w-[100vw]">
+			className="flex flex-col w-screen  overflow-x-clip max-w-[100vw] relative
+         px-4 xl:px-[120px] 2xl:px-[150px] 3xl:px-[165px] 4xl:px-[750px] 5xl:px-[40vw]">
 			<div className={`${styles.gradient}`} />
 			<Topbar />
 			<Hero />
-         <Icons />
-         <Unified />
-         <Cards />
-         <Code />
-         <Tech />
-         <Globe />
-         <Started />
-         <Socials />
+			<Icons />
+			<Unified />
+			<Cards />
+			<Code />
+			<Tech />
+			<Globe />
+			<Started />
+			<Socials />
 		</div>
 	);
 };

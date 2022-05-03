@@ -4,8 +4,7 @@ const Globe = () => {
 	return (
 		<div
 			className="relative flex flex-col  gap-y-8 lg:gap-y-16
-         pt-[72px] pb-[400px]  px-8 xl:px-[120px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[760px] 
-         ">
+         pt-[72px] pb-[400px]">
 			<div
 				className="flex absolute w-[200vw] h-full lg:h-[110%] 4xl:h-[120%] origin-bottom-left
             -z-20 bg-black-30 -skew-y-6 -left-1/4 top-10 "
