@@ -20,7 +20,7 @@ const CompanyKids = () => {
 					<div className="flex w-1/2 gap-x-3 group">
 						<FontAwesomeIcon
 							icon={faCity}
-							className="text-gray-20 group-hover:text-black-10 text-sm
+							className="text-gray-20 hover:text-black-10 text-sm
                   "
 						/>
 						<p className="text-[14px] text-black-10 group-hover:text-black-10">
@@ -30,7 +30,7 @@ const CompanyKids = () => {
 					<div className="flex w-1/2 gap-x-3 group">
 						<FontAwesomeIcon
 							icon={faCity}
-							className="text-gray-20 group-hover:text-black-10 text-sm
+							className="text-gray-20 hover:text-black-10 text-sm
                   "
 						/>
 						<p className="text-[14px] text-black-10">Newsroom </p>
@@ -38,7 +38,7 @@ const CompanyKids = () => {
 					<div className="flex w-1/2 gap-x-3 group">
 						<FontAwesomeIcon
 							icon={faEarthAfrica}
-							className="text-gray-20 group-hover:text-black-10  
+							className="text-gray-20 hover:text-black-10  
                   "
 						/>
 						<p className="text-[14px] text-black-10">Enterprise </p>
@@ -46,7 +46,7 @@ const CompanyKids = () => {
 					<div className="flex w-1/2 gap-x-3 group">
 						<FontAwesomeIcon
 							icon={faCity}
-							className="text-gray-20 group-hover:text-black-10   text-sm
+							className="text-gray-20 hover:text-black-10   text-sm
                   "
 						/>
 						<p className="text-[14px] text-black-10">Partners </p>
@@ -54,7 +54,7 @@ const CompanyKids = () => {
 					<div className="flex w-1/2 gap-x-3 group">
 						<FontAwesomeIcon
 							icon={faBriefcase}
-							className="text-gray-20 group-hover:text-black-10 
+							className="text-gray-20 hover:text-black-10 
                   "
 						/>
 						<p className="text-[14px] text-black-10">Jobs </p>
@@ -62,7 +62,7 @@ const CompanyKids = () => {
 					<div className="flex w-1/2 gap-x-3 group">
 						<FontAwesomeIcon
 							icon={faGift}
-							className="text-gray-20 group-hover:text-black-10 
+							className="text-gray-20 hover:text-black-10 
                   "
 						/>
 						<p className="text-[14px] text-black-10">Sessions </p>
@@ -72,18 +72,18 @@ const CompanyKids = () => {
 				<div className="flex w-full gap-y-4 bg-gray-30 px-10 py-8 group gap-x-3">
 					<FontAwesomeIcon
 						icon={faPenNib}
-						className="text-gray-20 group-hover:text-black-10 
+						className="text-gray-20 hover:text-black-10 
                   "
 					/>
 					<div className="flex flex-col ">
 						<p className="text-[15px] text-black-10">From the blog </p>
-						<p className="text-[14px] text-gray-20 group-hover:text-black-10 ">
+						<p className="text-[14px] text-gray-20 group-hover:text-black-10 font-light">
 							Stripe’s payments APIs: the first ten years
 						</p>
-						<p className="text-[14px] text-gray-20 group-hover:text-black-10 ">
+						<p className="text-[14px] text-gray-20 group-hover:text-black-10 font-light">
 							European payment methods available worldwide
 						</p>
-						<p className="text-[14px] text-gray-20 group-hover:text-black-10 ">
+						<p className="text-[14px] text-gray-20 group-hover:text-black-10 font-light">
 							We built Checkout so you don`t have to
 						</p>
 					</div>

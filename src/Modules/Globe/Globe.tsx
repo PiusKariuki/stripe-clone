@@ -24,7 +24,7 @@ const Globe = () => {
 					simple, borderless, and programmable as the rest of the internet. Our
 					teams are based in dozens of offices around the world and we process
 					hundreds of billions of dollars each year for{" "}
-					<span className="text-blue-20 hover:text-black-30">
+					<span className="text-blue-20 hover:text-white">
 						startups to Fortune 500s
 					</span>
 				</p>
