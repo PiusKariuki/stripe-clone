@@ -10,8 +10,8 @@ const Globe = () => {
             bg-black-30 -skew-y-6 -left-[100vw] top-1/2 -translate-y-1/2 5xl:-translate-y-[70%]"
 			/>
 			<div
-				className="bg-globe bg-center bg-cover h-full w-full  absolute left-1/3 top-1/2 
-            -translate-y-1/2"
+				className="bg-globe bg-center bg-contain lg:bg-cover w-[1000px] h-full
+            md:h-full md:w-full  absolute md:left-1/3 top-1/2 -translate-y-1/2 bg-no-repeat"
 			/>
 
 			<div className="flex flex-col gap-6 z-20 max-w-[300px] lg:max-w-[400px] ">
